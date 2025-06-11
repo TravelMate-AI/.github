@@ -19,40 +19,40 @@ in process
 1. Danish Gyan Pramana
   - Institusi: Universitas Brawijaya
   - Email:
-  - LinkedIn: [ ](www.linkedin.com/in/ )
-  - GitHub: [ ](https://github.com/ )
+  - LinkedIn: [Danish Gyan Pramana](www.linkedin.com/in/danishgyanpramana/)
+  - GitHub: [](https://github.com/) 
 
 2. Nikola Izzan Ar Rasheed
   - Institusi: Universitas Brawijaya
   - Email:
-  - LinkedIn: [ ](www.linkedin.com/in/ )
-  - GitHub: [ ](https://github.com/ )
+  - LinkedIn: [Nikola Izzan Ar Rasheed](www.linkedin.com/in/nikolaizzan/)
+  - GitHub: [nikolaizz](github.com/nikolaizz)
 
 3. Taufik Neldi
   - Institusi: Universitas Brawijaya
   - Email:
-  - LinkedIn: [ ](www.linkedin.com/in/ )
-  - GitHub: [ ](https://github.com/ )
+  - LinkedIn: [Taufik Neldi](www.linkedin.com/in/taufik-neldi-90aa50279/)
+  - GitHub: [Neldi30](github.com/Neldi30)
 
 ### Frontend/Backend Developer
 
 1. Muhammad Rasyad Putra Ekardi
   - Institusi: Universitas Brawijaya
   - Email:
-  - LinkedIn: [ ](www.linkedin.com/in/ )
-  - GitHub: [ ](https://github.com/ )
+  - LinkedIn: www.linkedin.com/in/ 
+  - GitHub: [rasyadpe](https://github.com/rasyadpe) 
 
 2. Leonardez Flobert Gunawan
   - Institusi: Universitas Tarumanagara
   - Email: 
-  - LinkedIn: [ ](www.linkedin.com/in/ )
-  - GitHub: [ ](https://github.com/ )
+  - LinkedIn: www.linkedin.com/in/ 
+  - GitHub: [LazerHart](https://github.com/LazerHart) 
 
 3. Zahruldin
   - Institusi: Universitas Nurdin Hamzah
   - Email: 
-  - LinkedIn: [ ](www.linkedin.com/in/ )
-  - GitHub: [ ](https://github.com/ )
+  - LinkedIn: www.linkedin.com/in/ 
+  - GitHub: [](https://github.com/) 
 
 
 © 2025 TravelMate.AI - DBS Coding Camp 2025 Capstone Project
