@@ -10,7 +10,97 @@ This project is the development of an AI Travel Advisor website, featuring a cha
 **Theme:** Social, Culture, Tourism
 
 ## About the Project 🚀
-in process
+The project consists of two main recommendation systems:
+
+1. Tourism Recommender: Provides tourism recommendations based on user prompt and location.
+2. Hotel Recommender: Provides hotel recommendations based on user prompt and location.
+
+this model ????
+
+## Fitur
+- Rekomendasi perjalanan berdasarkan deskripsi dan lokasi pengguna (ex: wisata alam yang asri di kota Malang, dll.).
+- Rekomendasi hotel berdasarkan deskripsi dan lokasi pengguna (ex: Hotel yang mempunyai kolam renang di Surabaya, dll.).
+- Penggunaan model pembelajaran mendalam untuk memproses fitur desscription dan kategoris.
+
+## Teknologi yang Digunakan
+- **Python**: Bahasa pemrograman utama.
+- **TensorFlow/Keras**: Digunakan untuk membangun model ??.
+- **Scikit-learn**: Digunakan untuk preprocessing data, termasuk encoding dan scaling.
+- **Pandas**: Digunakan untuk manipulasi dan analisis data.
+- **NLTK**: Digunakan untuk pemrosesan teks dan ekstraksi entitas???.
+
+## Instalasi
+
+### Persyaratan
+1. Python 3.7 atau lebih baru.
+2. Paket-paket Python berikut:
+    - TensorFlow
+    - Scikit-learn
+    - Pandas
+    - NLTK
+### Langkah-langkah Instalasi
+
+1. **Clone repository ini ke komputer Anda**:
+    ```bash
+    git clone https://github.com/username/nama-repository.git
+    cd nama-repository
+    ```
+
+2. **Install dependencies**:
+    Jika Anda menggunakan `pip`, buat virtual environment dan install dependencies:
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # Untuk Linux/MacOS
+    venv\Scripts\activate  # Untuk Windows
+    pip install -r requirements.txt
+    ```
+
+    File `requirements.txt` yang berisi dependensi dapat dibuat dengan perintah:
+    ```bash
+    pip freeze > requirements.txt
+    ```
+
+3. **Download dataset**:
+    - Pastikan Anda sudah memiliki dataset yang diperlukan. Dataset yang digunakan adalah `cleaned_dataset_wisata.csv` dan `cleaned_dataset_hotel.csv`. Anda dapat mengunduhnya dan menaruhnya di folder yang sesuai.
+
+## Penggunaan ( bingung )
+
+Untuk menjalankan chatbot rekomendasi wisata:
+1. Jalankan script Python:
+    ```bash
+    python chatbot.py
+    ```
+
+2. Chatbot akan meminta input pengguna. Anda dapat mengetikkan pertanyaan seperti:
+    - "Rekomendasikan wisata alam di Jember"
+    - "Rekomendasikan hotel harga terjangkau di kota Malang"
+    - "Rekomendasikan wisata murah di Surabaya"
+    - "Rekomendasikan hotel yang ada kolam renang di Batu"
+
+    Ketik "keluar" untuk menghentikan chatbot. ??????
+
+## Menyimpan dan Memuat Model
+
+- **Menyimpan model**: Setelah melatih model, model akan disimpan menggunakan Keras `model.save()` ke dalam file `.h5`:
+    ```python
+    self.model.save_model('tourism_recommender.h5') ( Ganti ama save model nanti )
+    ```
+
+- **Memuat model**: Anda bisa memuat model yang telah disimpan menggunakan:
+    ```python
+    self.model.load_model('tourism_recommender.h5')  ( Ganti ama save model nanti )
+    ```
+
+## Struktur Direktori
+```bash
+    /TravelMate.AI
+    │
+    ├── Data/
+    │   ├── cleaned_dataset_wisata.csv
+    │   └── cleaned_dataset_hotel.csv
+    ├── Model Chatbot.ipynb 
+    └── README.md
+```
 
 ## Our Team 👥
 
