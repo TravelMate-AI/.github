@@ -19,17 +19,30 @@ this model ????
 
 ## Fitur
 - Rekomendasi perjalanan berdasarkan deskripsi dan lokasi pengguna (ex: wisata alam yang asri di kota Malang, dll.).
-- Rekomendasi hotel berdasarkan deskripsi dan lokasi pengguna (ex: Hotel yang mempunyai kolam renang di Surabaya, dll.).
-- Penggunaan model pembelajaran mendalam untuk memproses fitur desscription dan kategoris.
+- Rekomendasi Hotel: Berdasarkan deskripsi yang diberikan oleh pengguna, sistem memberikan rekomendasi hotel yang relevan dengan lokasi yang ditentukan.
+- Model Klasifikasi Hotel: Memprediksi kategori hotel berdasarkan deskripsi menggunakan model pembelajaran mendalam (Deep Learning) dengan bantuan Keras dan Keras Tuner untuk penyesuaian hyperparameter.
+- Hyperparameter Tuning: Penggunaan Keras Tuner untuk mencari hyperparameter terbaik untuk model pembelajaran mendalam yang digunakan.
+- Pengolahan Embedding Teks: Menggunakan IndoBERT untuk menghasilkan embedding dari deskripsi hotel, yang kemudian digunakan untuk proses pelatihan dan rekomendasi.
 
 ## Teknologi yang Digunakan
 - **Python**: Bahasa pemrograman utama.
-- **TensorFlow/Keras**: Digunakan untuk membangun model ??.
-- **Scikit-learn**: Digunakan untuk preprocessing data, termasuk encoding dan scaling.
-- **Pandas**: Digunakan untuk manipulasi dan analisis data.
-- **NLTK**: Digunakan untuk pemrosesan teks dan ekstraksi entitas???.
+- **TensorFlow**: Framework utama untuk membangun dan melatih model deep learning.
+- **Keras**: Digunakan untuk membangun model neural network dan hyperparameter tuning.
+- **IndoBERT**: Model bahasa pre-trained untuk Bahasa Indonesia, digunakan untuk menghasilkan embedding teks.
+- **Keras Tuner**: Digunakan untuk mengoptimalkan hyperparameter model neural network.
+- **Scikit-learn**: Digunakan untuk pemisahan data latih dan validasi serta pemrosesan data seperti label encoding.
+- **Pandas**: Digunakan untuk manipulasi dan analisis data dalam bentuk DataFrame.
+- **Cosine Similarity**: Digunakan untuk menghitung kesamaan antara embedding deskripsi hotel dengan input pengguna.
 
 ## Instalasi
+Proyek ini memerlukan beberapa paket Python untuk dijalankan. Berikut adalah daftar paket yang diperlukan:
+
+- TensorFlow: pip install tensorflow
+- Keras Tuner: pip install keras-tuner
+- Scikit-learn: pip install scikit-learn
+- Transformers: pip install transformers
+- Pandas: pip install pandas
+- NumPy: pip install numpy
 
 ### Persyaratan
 1. Python 3.7 atau lebih baru.
@@ -37,8 +50,11 @@ this model ????
     - TensorFlow
     - Scikit-learn
     - Pandas
-    - NLTK
-### Langkah-langkah Instalasi
+    - Numpy
+    - Transformers
+    - keras Tuner
+   
+### Langkah-langkah Instalasi ( belum fix)
 
 1. **Clone repository ini ke komputer Anda**:
     ```bash
