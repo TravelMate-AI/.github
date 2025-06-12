@@ -120,7 +120,7 @@ Untuk menjalankan chatbot rekomendasi wisata:
 
 3. Taufik Neldi
   - Institusi: Universitas Brawijaya
-  - Email:
+  - Email: taufikneldi02@gmail.com
   - LinkedIn: [Taufik Neldi](www.linkedin.com/in/taufik-neldi-90aa50279/)
   - GitHub: [Neldi30](github.com/Neldi30)
 
