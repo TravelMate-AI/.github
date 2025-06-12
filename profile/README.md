@@ -124,9 +124,9 @@ Untuk menjalankan chatbot rekomendasi wisata:
 
 1. Danish Gyan Pramana
   - Institusi: Universitas Brawijaya
-  - Email:
-  - LinkedIn: [Danish Gyan Pramana](www.linkedin.com/in/danishgyanpramana/)
-  - GitHub: [](https://github.com/) 
+  - Email: danishgyanpramana2018@gmail.com
+  - LinkedIn: [Danish Gyan Pramana](www.linkedin.com/in/danishgyanpramana)
+  - GitHub: [](https://github.com/vynnzz) 
 
 2. Nikola Izzan Ar Rasheed
   - Institusi: Universitas Brawijaya
