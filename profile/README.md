@@ -21,9 +21,9 @@ This model ...
 - **Keras Tuner**
 - **Scikit-learn**
 - **Pandas**, **NumPy**
-- **Cosine Similarity**=
-- **React.js**, **Tailwind CSS**, **Vite**=
-- **Node.js**, **Express.js**=
+- **Cosine Similarity**
+- **React.js**, **Tailwind CSS**, **Vite**
+- **Node.js**, **Express.js**
 - **MongoDB** 
 - **Vercel**, **Render**, **GitHub**
 
@@ -43,69 +43,6 @@ This model ...
 ```bash
 pip install tensorflow keras-tuner scikit-learn transformers pandas numpy
 ```
-
-### Persyaratan
-1. Python 3.7 atau lebih baru.
-2. Paket-paket Python berikut:
-    - TensorFlow
-    - Scikit-learn
-    - Pandas
-    - Numpy
-    - Transformers
-    - keras Tuner
-   
-### Langkah-langkah Instalasi ( belum fix)
-
-1. **Clone repository ini ke komputer Anda**:
-    ```bash
-    git clone https://github.com/username/nama-repository.git
-    cd nama-repository
-    ```
-
-2. **Install dependencies**:
-    Jika Anda menggunakan `pip`, buat virtual environment dan install dependencies:
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # Untuk Linux/MacOS
-    venv\Scripts\activate  # Untuk Windows
-    pip install -r requirements.txt
-    ```
-
-    File `requirements.txt` yang berisi dependensi dapat dibuat dengan perintah:
-    ```bash
-    pip freeze > requirements.txt
-    ```
-
-3. **Download dataset**:
-    - Pastikan Anda sudah memiliki dataset yang diperlukan. Dataset yang digunakan adalah `cleaned_dataset_wisata.csv` dan `cleaned_dataset_hotel.csv`. Anda dapat mengunduhnya dan menaruhnya di folder yang sesuai.
-
-## Penggunaan ( bingung )
-
-Untuk menjalankan chatbot rekomendasi wisata:
-1. Jalankan script Python:
-    ```bash
-    python chatbot.py
-    ```
-
-2. Chatbot akan meminta input pengguna. Anda dapat mengetikkan pertanyaan seperti:
-    - "Rekomendasikan wisata alam di Jember"
-    - "Rekomendasikan hotel harga terjangkau di kota Malang"
-    - "Rekomendasikan wisata murah di Surabaya"
-    - "Rekomendasikan hotel yang ada kolam renang di Batu"
-
-    Ketik "keluar" untuk menghentikan chatbot. ??????
-
-## Menyimpan dan Memuat Model
-
-- **Menyimpan model**: Setelah melatih model, model akan disimpan menggunakan Keras `model.save()` ke dalam file `.h5`:
-    ```python
-    self.model.save_model('tourism_recommender.h5') ( Ganti ama save model nanti )
-    ```
-
-- **Memuat model**: Anda bisa memuat model yang telah disimpan menggunakan:
-    ```python
-    self.model.load_model('tourism_recommender.h5')  ( Ganti ama save model nanti )
-    ```
 
 ## Project Structure
 
@@ -155,19 +92,19 @@ Untuk menjalankan chatbot rekomendasi wisata:
 1. Muhammad Rasyad Putra Ekardi
   - Institusi: Universitas Brawijaya
   - Email:
-  - LinkedIn: www.linkedin.com/in/ 
+  - LinkedIn: www.linkedin.com/in/
   - GitHub: [rasyadpe](https://github.com/rasyadpe) 
 
 2. Leonardez Flobert Gunawan
   - Institusi: Universitas Tarumanagara
   - Email: 
-  - LinkedIn: www.linkedin.com/in/ 
+  - LinkedIn: www.linkedin.com/in/
   - GitHub: [LazerHart](https://github.com/LazerHart) 
 
-3. Zahruldin
+3. Zahruldin [INACTIVE]
   - Institusi: Universitas Nurdin Hamzah
   - Email: 
-  - LinkedIn: www.linkedin.com/in/ 
+  - LinkedIn: www.linkedin.com/in/
   - GitHub: [](https://github.com/) 
 
 
