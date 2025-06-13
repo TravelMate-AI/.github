@@ -130,7 +130,7 @@ Untuk menjalankan chatbot rekomendasi wisata:
 
 2. Nikola Izzan Ar Rasheed
   - Institusi: Universitas Brawijaya
-  - Email:
+  - Email: izzannikola@gmail.com
   - LinkedIn: [Nikola Izzan Ar Rasheed](www.linkedin.com/in/nikolaizzan/)
   - GitHub: [nikolaizz](github.com/nikolaizz)
 
