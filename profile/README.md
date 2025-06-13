@@ -10,39 +10,39 @@ This project is the development of an AI Travel Advisor website, featuring a cha
 **Theme:** Social, Culture, Tourism
 
 ## About the Project 🚀
-The project consists of two main recommendation systems:
+The project consists of main recommendation system
 
-1. Tourism Recommender: Provides tourism recommendations based on user prompt and location.
-2. Hotel Recommender: Provides hotel recommendations based on user prompt and location.
+This model ...
 
-this model ????
+## Tech Stack
+- **Python**
+- **TensorFlow** / **Keras**
+- **IndoBERT** (Hugging Face Transformers)
+- **Keras Tuner**
+- **Scikit-learn**
+- **Pandas**, **NumPy**
+- **Cosine Similarity**=
+- **React.js**, **Tailwind CSS**, **Vite**=
+- **Node.js**, **Express.js**=
+- **MongoDB** 
+- **Vercel**, **Render**, **GitHub**
 
-## Fitur
-- Rekomendasi perjalanan berdasarkan deskripsi dan lokasi pengguna (ex: wisata alam yang asri di kota Malang, dll.).
-- Rekomendasi Hotel: Berdasarkan deskripsi yang diberikan oleh pengguna, sistem memberikan rekomendasi hotel yang relevan dengan lokasi yang ditentukan.
-- Model Klasifikasi Hotel: Memprediksi kategori hotel berdasarkan deskripsi menggunakan model pembelajaran mendalam (Deep Learning) dengan bantuan Keras dan Keras Tuner untuk penyesuaian hyperparameter.
-- Hyperparameter Tuning: Penggunaan Keras Tuner untuk mencari hyperparameter terbaik untuk model pembelajaran mendalam yang digunakan.
-- Pengolahan Embedding Teks: Menggunakan IndoBERT untuk menghasilkan embedding dari deskripsi hotel, yang kemudian digunakan untuk proses pelatihan dan rekomendasi.
+## Installation
 
-## Teknologi yang Digunakan
-- **Python**: Bahasa pemrograman utama.
-- **TensorFlow**: Framework utama untuk membangun dan melatih model deep learning.
-- **Keras**: Digunakan untuk membangun model neural network dan hyperparameter tuning.
-- **IndoBERT**: Model bahasa pre-trained untuk Bahasa Indonesia, digunakan untuk menghasilkan embedding teks.
-- **Keras Tuner**: Digunakan untuk mengoptimalkan hyperparameter model neural network.
-- **Scikit-learn**: Digunakan untuk pemisahan data latih dan validasi serta pemrosesan data seperti label encoding.
-- **Pandas**: Digunakan untuk manipulasi dan analisis data dalam bentuk DataFrame.
-- **Cosine Similarity**: Digunakan untuk menghitung kesamaan antara embedding deskripsi hotel dengan input pengguna.
+**Requirements:**
 
-## Instalasi
-Proyek ini memerlukan beberapa paket Python untuk dijalankan. Berikut adalah daftar paket yang diperlukan:
+- Python 3.7+
+- pip packages:
+  - tensorflow
+  - keras-tuner
+  - scikit-learn
+  - transformers
+  - pandas
+  - numpy
 
-- TensorFlow: pip install tensorflow
-- Keras Tuner: pip install keras-tuner
-- Scikit-learn: pip install scikit-learn
-- Transformers: pip install transformers
-- Pandas: pip install pandas
-- NumPy: pip install numpy
+```bash
+pip install tensorflow keras-tuner scikit-learn transformers pandas numpy
+```
 
 ### Persyaratan
 1. Python 3.7 atau lebih baru.
@@ -107,15 +107,25 @@ Untuk menjalankan chatbot rekomendasi wisata:
     self.model.load_model('tourism_recommender.h5')  ( Ganti ama save model nanti )
     ```
 
-## Struktur Direktori
+## Project Structure
+
 ```bash
-    /TravelMate.AI
-    │
-    ├── Data/
-    │   ├── cleaned_dataset_wisata.csv
-    │   └── cleaned_dataset_hotel.csv
-    ├── Model Chatbot.ipynb 
-    └── README.md
+/TravelMate.AI
+|
+├── Frontend-Backend/
+│   ├── backend/
+│   └── frontend/
+├── MachineLearning/
+│   ├── dataset/
+│   ├── saved_model/
+│   ├── data_cleaning.ipynb
+│   ├── modelling.ipynb
+│   ├── modelling_resto.ipynb
+│   ├── modelling_hotel.ipynb
+│   ├── requirements.txt
+└── .github/
+    ├── profile/
+        ├── README.md
 ```
 
 ## Our Team 👥
