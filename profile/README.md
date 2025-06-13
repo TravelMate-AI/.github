@@ -428,8 +428,8 @@ This project is the development of an AI Travel Advisor website, featuring a cha
 3. Taufik Neldi
   - Institusi: Universitas Brawijaya
   - Email: taufikneldi02@gmail.com
-  - LinkedIn: [Taufik Neldi](www.linkedin.com/in/taufik-neldi-90aa50279/)
-  - GitHub: [Neldi30](github.com/Neldi30)
+  - LinkedIn: [Taufik Neldi](www.linkedin.com/in/taufik-neldi-90aa50279)
+  - GitHub: [Neldi30](https://github.com/Neldi30)
 
 ### Frontend/Backend Developer
 
