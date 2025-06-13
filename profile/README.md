@@ -417,7 +417,7 @@ This project is the development of an AI Travel Advisor website, featuring a cha
   - Institusi: Universitas Brawijaya
   - Email: danishgyanpramana2018@gmail.com
   - LinkedIn: [Danish Gyan Pramana](www.linkedin.com/in/danishgyanpramana)
-  - GitHub: [](https://github.com/vynnzz) 
+  - GitHub: [vynnzz](https://github.com/vynnzz) 
 
 2. Nikola Izzan Ar Rasheed
   - Institusi: Universitas Brawijaya
