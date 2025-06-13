@@ -435,7 +435,7 @@ This project is the development of an AI Travel Advisor website, featuring a cha
 
 1. Muhammad Rasyad Putra Ekardi
   - Institusi: Universitas Brawijaya
-  - Email:
+  - Email: rasyadp.e@gmail.com
   - LinkedIn: www.linkedin.com/in/rasyadekardi
   - GitHub: [rasyadpe](https://github.com/rasyadpe) 
 
